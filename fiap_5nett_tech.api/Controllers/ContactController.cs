@@ -86,7 +86,7 @@ public class ContactController : ControllerBase
     }
 
     /// <summary>
-    /// Obtém todos os contatos
+    /// Obtém todos os contatos paginados
     /// </summary>
     /// <param name="contactRequest">O objeto de solicitação para buscar todos os contatos.</param>
     /// <response code="200">Retorna uma lista paginada de contatos.</response>
